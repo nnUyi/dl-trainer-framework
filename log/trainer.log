@@ -1,0 +1,80 @@
+2020-11-28 13:17:23,029 module_wrapper.py[139]: WARNING From main.py:23: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-11-28 13:17:23,035 module_wrapper.py[139]: WARNING From /root/chadyang/dl-trainer-framework/learner/trainer.py:33: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2020-11-28 13:17:23,036 module_wrapper.py[139]: WARNING From /root/chadyang/dl-trainer-framework/learner/model.py:18: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2020-11-28 13:17:23,036 deprecation.py[323]: WARNING From /root/chadyang/dl-trainer-framework/learner/model.py:19: conv2d (from tensorflow.python.layers.convolutional) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.keras.layers.Conv2D` instead.
+2020-11-28 13:17:23,038 deprecation.py[323]: WARNING From /root/anaconda2/lib/python2.7/site-packages/tensorflow_core/python/layers/convolutional.py:424: apply (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `layer.__call__` method instead.
+2020-11-28 13:17:23,111 module_wrapper.py[139]: WARNING From /root/chadyang/dl-trainer-framework/learner/algorithm.py:21: The name tf.losses.mean_squared_error is deprecated. Please use tf.compat.v1.losses.mean_squared_error instead.
+
+2020-11-28 13:17:23,118 deprecation.py[323]: WARNING From /root/anaconda2/lib/python2.7/site-packages/tensorflow_core/python/ops/losses/losses_impl.py:121: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-11-28 13:17:23,124 module_wrapper.py[139]: WARNING From /root/chadyang/dl-trainer-framework/learner/algorithm.py:28: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2020-11-28 13:17:23,309 module_wrapper.py[139]: WARNING From /root/chadyang/dl-trainer-framework/learner/trainer.py:68: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2020-11-28 13:17:23,577 trainer.py[75]: INFO dataloader time:0.178433895111
+2020-11-28 13:17:25,793 trainer.py[79]: INFO model inference time:2.21610808372
+2020-11-28 13:17:25,794 trainer.py[75]: INFO dataloader time:0.00131893157959
+2020-11-28 13:17:27,880 trainer.py[79]: INFO model inference time:2.08502602577
+2020-11-28 13:17:27,881 trainer.py[75]: INFO dataloader time:0.0011579990387
+2020-11-28 13:17:29,872 trainer.py[79]: INFO model inference time:1.99073290825
+2020-11-28 13:17:29,873 trainer.py[75]: INFO dataloader time:0.00136303901672
+2020-11-28 13:17:31,893 trainer.py[79]: INFO model inference time:2.0194439888
+2020-11-28 13:17:31,894 trainer.py[75]: INFO dataloader time:0.00114011764526
+2020-11-28 13:17:33,522 trainer.py[79]: INFO model inference time:1.62796187401
+2020-11-28 13:17:33,524 trainer.py[75]: INFO dataloader time:0.00125193595886
+2020-11-28 13:17:34,471 trainer.py[79]: INFO model inference time:0.946645975113
+2020-11-28 13:17:34,472 trainer.py[75]: INFO dataloader time:0.00124597549438
+2020-11-28 13:17:35,421 trainer.py[79]: INFO model inference time:0.94909620285
+2020-11-28 13:17:35,423 trainer.py[75]: INFO dataloader time:0.00126910209656
+2020-11-28 13:17:36,362 trainer.py[79]: INFO model inference time:0.939513921738
+2020-11-28 13:17:36,364 trainer.py[75]: INFO dataloader time:0.0012149810791
+2020-11-28 13:17:37,307 trainer.py[79]: INFO model inference time:0.943650007248
+2020-11-28 13:17:37,309 trainer.py[75]: INFO dataloader time:0.00112795829773
+2020-11-28 13:17:38,242 trainer.py[79]: INFO model inference time:0.932845830917
+2020-11-28 13:17:38,243 trainer.py[75]: INFO dataloader time:0.00132203102112
+2020-11-28 13:17:39,384 trainer.py[79]: INFO model inference time:1.14020800591
+2020-11-28 13:17:39,385 trainer.py[75]: INFO dataloader time:0.00135397911072
+2020-11-28 13:17:40,338 trainer.py[79]: INFO model inference time:0.952787876129
+2020-11-28 13:17:40,339 trainer.py[75]: INFO dataloader time:0.00119090080261
+2020-11-28 13:17:41,269 trainer.py[79]: INFO model inference time:0.929582118988
+2020-11-28 13:17:41,270 trainer.py[75]: INFO dataloader time:0.00116086006165
+2020-11-28 13:17:42,205 trainer.py[79]: INFO model inference time:0.934554100037
+2020-11-28 13:17:42,207 trainer.py[75]: INFO dataloader time:0.00134515762329
+2020-11-28 13:17:43,168 trainer.py[79]: INFO model inference time:0.961263895035
+2020-11-28 13:17:43,169 trainer.py[75]: INFO dataloader time:0.00111603736877
+2020-11-28 13:17:44,108 trainer.py[79]: INFO model inference time:0.939076900482
+2020-11-28 13:17:44,110 trainer.py[75]: INFO dataloader time:0.0013542175293
+2020-11-28 13:17:45,261 trainer.py[79]: INFO model inference time:1.15095496178
+2020-11-28 13:17:45,262 trainer.py[75]: INFO dataloader time:0.00115704536438
+2020-11-28 13:17:46,222 trainer.py[79]: INFO model inference time:0.959157943726
+2020-11-28 13:17:46,223 trainer.py[75]: INFO dataloader time:0.00122499465942
+2020-11-28 13:17:47,166 trainer.py[79]: INFO model inference time:0.943067073822
+2020-11-28 13:17:47,168 trainer.py[75]: INFO dataloader time:0.00116515159607
+2020-11-28 13:17:48,121 trainer.py[79]: INFO model inference time:0.953085899353
+2020-11-28 13:17:48,122 trainer.py[75]: INFO dataloader time:0.0012218952179
+2020-11-28 13:17:49,065 trainer.py[79]: INFO model inference time:0.942636966705
+2020-11-28 13:17:49,067 trainer.py[75]: INFO dataloader time:0.00131487846375
+2020-11-28 13:17:50,019 trainer.py[79]: INFO model inference time:0.95260310173
+2020-11-28 13:17:50,021 trainer.py[75]: INFO dataloader time:0.00127983093262
+2020-11-28 13:17:51,172 trainer.py[79]: INFO model inference time:1.15140104294
+2020-11-28 13:17:51,174 trainer.py[75]: INFO dataloader time:0.00116014480591
+2020-11-28 13:17:52,122 trainer.py[79]: INFO model inference time:0.948446989059
+2020-11-28 13:17:52,124 trainer.py[75]: INFO dataloader time:0.00119805335999
+2020-11-28 13:17:53,093 trainer.py[79]: INFO model inference time:0.968920946121
+2020-11-28 13:17:53,094 trainer.py[75]: INFO dataloader time:0.00115299224854
+2020-11-28 13:17:54,039 trainer.py[79]: INFO model inference time:0.945042848587
+2020-11-28 13:17:54,041 trainer.py[75]: INFO dataloader time:0.00129914283752
+2020-11-28 13:17:55,023 trainer.py[79]: INFO model inference time:0.982795000076
+2020-11-28 13:17:55,025 trainer.py[75]: INFO dataloader time:0.00112819671631
+2020-11-28 13:17:55,989 trainer.py[79]: INFO model inference time:0.963680028915
+2020-11-28 13:17:55,990 trainer.py[75]: INFO dataloader time:0.00122785568237
+2020-11-28 13:17:57,106 trainer.py[79]: INFO model inference time:1.11583781242
+2020-11-28 13:17:57,107 trainer.py[75]: INFO dataloader time:0.00117421150208
