@@ -128,7 +128,6 @@ class CStatistic(object):
 
         all_stat = TypeInfo()
         for _, cur_stat in self.stat_dict.items():
-            print(str(cur_stat))
             tmp_avg_ms = 0
             if cur_stat.all_cnt > 0:
                 tmp_avg_ms = cur_stat.st_time / cur_stat.all_cnt
