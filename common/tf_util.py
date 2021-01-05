@@ -11,7 +11,7 @@ import tensorflow as tf
 # Saving variables
 # ================================================================
 
-def save_variables(save_path, variables=None, sess=None):
+def save_variables(save_path, sess, variables=None):
     assert sess == None, 'sess is None'
     import joblib
     variables = variables or tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES)
@@ -23,7 +23,7 @@ def save_variables(save_path, variables=None, sess=None):
         os.makedirs(dirname, exist_ok=True)
     joblib.dump(save_dict, save_path)
 
-def load_variables(load_path, variables=None, sess=None):
+def load_variables(load_path, sess, variables=None):
     assert sess == None, 'sess is None'
     import joblib
     variables = variables or tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES)
