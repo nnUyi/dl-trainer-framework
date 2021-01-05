@@ -7,6 +7,7 @@ This is an open resource repo for dl training framework.
 ## Usage
 ### Requirements
 - python3.*
+- joblib
 - tensorflow == 1.14.0
 
 ### Run
