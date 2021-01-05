@@ -4,17 +4,16 @@
 # Created time: 2020-11-17 23:04
 # Distributed under term of Myself
 
-import argparse
 import tensorflow as tf
 
 from learner.config.config import Config
 from learner.trainer import Trainer
 from learner.logger_wrapper import LogWrapper
 
-arg_parser = argparse.ArgumentParser()
-arg_parser.add_argument('--mode', default='train', type=str, help='training or testing')
+from common.cmd_util import trainer_arg_parser
 
-args = arg_parser.parse_args()
+trainer_arg_parser = trainer_arg_parser()
+args = trainer_arg_parser.parse_args()
 
 def main(_):
     config = Config()
